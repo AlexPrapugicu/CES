@@ -1,0 +1,18 @@
+{
+  "id": "ces-cpp-component-definer",
+  "name": "CES Cpp Component Definer",
+  "description": "This plugin splits files into Components based on Cpp modules",
+  "version": "0.0.1",
+  "schemaVersion": "1",
+  "icon": "",
+  "commands": [
+    {
+      "id": "ces-cpp-component-definer",
+      "name": "CES Cpp Modules Component Definer",
+      "type": "componentDefiner",
+      "description": "Generates Components based on Cpp Modules",
+      "commandTemplate": "ces-cpp-component-definer --of ${outputFile} --ftg ${filesToGroup}",
+      "configurationFields": []
+    }
+  ]
+}
