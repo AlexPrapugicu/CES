@@ -8,6 +8,7 @@
     "url": "git@github.com:AlexPrapugicu/CES.git"
   },
   "scripts": {
+    "dev": "node index.js --of result.json --ftg filesToGroup.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

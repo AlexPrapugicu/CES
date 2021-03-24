@@ -42,7 +42,9 @@ const getAllFiles = (dir, extn, files, result, regex, flag) => {
 };
 
 const options = yargs
-  .usage("Usage: cesplugin --of <outputFile> --ftg <filesToGroup>")
+  .usage(
+    "Usage: ces-cpp-component-define --of <outputFile> --ftg <filesToGroup>"
+  )
   .option("of", {
     alias: "outputFile",
     describe: "Output file to write your results to",
@@ -70,7 +72,8 @@ const allFiles = fs
   .readFileSync(options.ftg, { encoding: "UTF-8" })
   .toString()
   .split("\n")
-  .filter((file) => file.length !== 0);
+  .filter((file) => file.length !== 0)
+  .map((item) => item.trim());
 
 const cppRegex = new RegExp(/.*\.(c|cpp|hpp|cc|h|hh|cxx|hxx)$/i);
 const cppFiles = allFiles.filter((file) => cppRegex.test(file));
