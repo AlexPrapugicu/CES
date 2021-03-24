@@ -99,4 +99,4 @@ For this project :
 
 ## 6 License
 
-#### -- [License]()
+#### -- [License](https://github.com/AlexPrapugicu/CES/blob/master/LICENSE)
