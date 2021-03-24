@@ -25,10 +25,14 @@ The standalone use can give you some ideas of how the files are grouped togheter
 
 ## Instalation
 
-⚠️⚠️⚠️ Before Installing the tool you'll need npm and node installed on your machine, asor you can as well install only 
+⚠️⚠️⚠️ Before Installing the tool you'll need npm and node installed on your machine, asor you can as well install only:
+
  -- [NODE JS](https://nodejs.org/en/) 🔎 (at least version 10)
+
  -- [NPM](https://www.npmjs.com/) 🔎 (get the latest version)
+
 Or
+
  -- [DOCKER](https://www.docker.com/) 🔎
 
 To run with node:
@@ -93,8 +97,11 @@ Any contribution is welcomed , just take into account that this represents an un
 
 ## 5 Authors and aknowledgment
 For this project :
+
 -- 🔔 [Alex Prapugicu](https://github.com/AlexPrapugicu)
+
 -- 🔔 [Darius Andreascec](https://github.com/dariusandreascec)
+
 
 ## 6 License
 
