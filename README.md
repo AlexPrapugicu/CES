@@ -51,7 +51,6 @@ The standalone tool, after ```npm i -g``` should be used as it follows:
 
 #### 3.2 Running from docker
  - ```docker pull alexprapugicu/ces-cpp-component-definer```
- - 
 
 The tool will generate a list of object in json format which represent the components. They will follow the format of 
 ```javascript
@@ -94,8 +93,8 @@ Any contribution is welcomed , just take into account that this represents an un
 
 ## 5 Authors and aknowledgment
 For this project :
-🔔 [Alex Prapugicu](https://github.com/AlexPrapugicu)
-🔔 [Darius Andreascec](https://github.com/dariusandreascec)
+-- 🔔 [Alex Prapugicu](https://github.com/AlexPrapugicu)
+-- 🔔 [Darius Andreascec](https://github.com/dariusandreascec)
 
 ## 6 License
 
